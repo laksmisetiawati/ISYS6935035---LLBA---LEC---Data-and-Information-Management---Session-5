@@ -3,6 +3,6 @@ CREATE TABLE Kriteria(
     namaKriteria VARCHAR(255) NOT NULL,
     jenis VARCHAR(255) NOT NULL,
     bobot INT NOT NULL,
-    keterangan VARCHAR(255),
+    keterangan VARCHAR(255) NULL,
     PRIMARY KEY (idKriteria)
 );
