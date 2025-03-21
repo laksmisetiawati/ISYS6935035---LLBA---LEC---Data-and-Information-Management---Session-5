@@ -7,7 +7,7 @@ CREATE TABLE Karyawan(
     username VARCHAR(50) NOT NULL,
     password CHAR(32) NOT NULL,
     idLevel INT NOT NULL,
-    proses VARCHAR(255),
+    proses VARCHAR(255) NULL,
     PRIMARY KEY (idKaryawan),
     FOREIGN KEY (idLevel) REFERENCES Level(idLevel)
 );
